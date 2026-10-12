@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "channel": "owner-qa",
+  "packageName": "com.dnsv2",
+  "available": false,
+  "versionCode": 0,
+  "versionName": "",
+  "apkUrl": "",
+  "sha256": "",
+  "sizeBytes": 0,
+  "signingCertificateSha256": "",
+  "releaseNotes": "ClickAirV2 OTA channel reserved. No signed update is currently available.",
+  "publishedAt": null
+}
