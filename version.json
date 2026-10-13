@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "channel": "owner-qa",
   "packageName": "com.dnsv2",
-  "available": false,
-  "versionCode": 0,
-  "versionName": "",
-  "apkUrl": "",
-  "sha256": "",
-  "sizeBytes": 0,
-  "signingCertificateSha256": "",
-  "releaseNotes": "ClickAirV2 OTA channel reserved. No signed update is currently available.",
-  "publishedAt": null
+  "available": true,
+  "versionCode": 7,
+  "versionName": "0.2.4-owner-ota-dev",
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v7-e8f9aea06fe7/ClickAirV2-fixed-key.apk",
+  "sha256": "14fe0b44285efe8e3637285ac00409493449db812a3fbefd09663b32e5c476d1",
+  "sizeBytes": 1909726,
+  "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
+  "releaseNotes": "ClickAirV2 v7 Owner QA: improved Floating Icon stability; 3.5s bounded visibility after a verified Instant Reject click with an expiry safety watchdog; safe repositioning. Job Pool → Upcoming Sync (Issue #7) is not fixed. Stop ClickAirV2 before updating and confirm installation in Android. Server-side Instant Reject outcome still needs device confirmation.",
+  "publishedAt": "2026-10-13T12:08:59Z"
 }
