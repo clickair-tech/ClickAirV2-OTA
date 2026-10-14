@@ -10,5 +10,5 @@
   "sizeBytes": 2242174,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "releaseNotes": "Owner QA v9: approved UI/3 languages/App Icon; 60dp gray-when-Stopped/green-when-Running Floating with idle recovery; Settings Diagnostics and battery/background guidance; Android PackageInstaller.Session-based OTA with user consent and delayed-confirmation Stop guard; Upcoming clipped fourth-card merge when its Date+Time were already read; sanitized Sync node diagnostics. NOT fixed/verified: AARide Job Pool→Upcoming navigation, Advance Accept→YES, server-side Instant Reject result. Supabase Android automatic upload is not yet implemented; QA TXT export remains. Stop ClickAirV2 before updating. Do not uninstall or clear data. HONOR may refuse AARide Online when Developer Options enabled; ClickAirV2 does not bypass this.",
-  "publishedAt": "2026-10-14T04:07:33Z"
+  "publishedAt": "2026-10-14T04:09:08Z"
 }
