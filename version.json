@@ -3,12 +3,12 @@
   "channel": "owner-qa",
   "packageName": "com.dnsv2",
   "available": true,
-  "versionCode": 11,
-  "versionName": "0.2.8-owner-ota-dev",
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v11-5295053b24c0/ClickAirV2-fixed-key.apk",
-  "sha256": "707f3aeaa50da97c6ab60dd72bb3c9343b3b9f5f14774df0ff6c23244e37b6ef",
-  "sizeBytes": 2254462,
+  "versionCode": 12,
+  "versionName": "0.2.9-owner-ota-dev",
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v12-6cee50c48b3e/ClickAirV2-fixed-key.apk",
+  "sha256": "e1cfd9b0d660030f553cbc929863e19edfec17f7c3a8b588fd8825557b09eb63",
+  "sizeBytes": 2262654,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
-  "releaseNotes": "Owner QA v11: Floating stays visible on verified AARide windows even when UI capture is incomplete; refreshes known button obstacles. Instant Reject All recognizes current-version visible Reject/Accept structure; per-capture and recheck budget 60ms, failure retry pacing 150ms, no 45-second UI-hash lock. After a successfully issued click, another Reject requires observing Home/new presentation; click success is not server confirmation. Logs blocked reasons. SYNC and Upcoming -> Back -> Home are NOT verified/enabled on this device because the general UI profile is missing; Advance Accept/YES stays guarded. Update in-place from v10, Stop before updating, do not uninstall or clear data. Test Floating / Instant and export TXT logs.",
-  "publishedAt": "2026-10-15T07:16:20Z"
+  "releaseNotes": "OWNER QA v12: Adds supervised AARide Home -> Job Pool -> Upcoming -> Back navigation diagnostics. Offline or unverified Upcoming does not clear My Schedule; full online booking scan remains unverified. Instant Reject All retains narrow v11 real-button proof; issued click is not server confirmation. Instant Filter is diagnostic ONLY: no automatic Accept/Reject until online offer fields are verified. Six condition verdicts, action-block reasons, UI structure and Sync stages are retained in Settings TXT export even with USB Debugging off. Signed with the same permanent certificate as v11. Stop before updating in place; do not uninstall or clear data. Disable USB Debugging/Developer Options to drive AARide Online, run observed test, then share retained TXT log.",
+  "publishedAt": "2026-10-15T16:06:53Z"
 }
