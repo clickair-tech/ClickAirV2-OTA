@@ -3,12 +3,12 @@
   "channel": "owner-qa",
   "packageName": "com.dnsv2",
   "available": true,
-  "versionCode": 9,
-  "versionName": "0.2.6-owner-ota-dev",
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v9-93b523e908de/ClickAirV2-fixed-key.apk",
-  "sha256": "0933899a7410ca0da35cc2353bb6133f05039ef3fd2c724b9640dd2fc6b7052c",
-  "sizeBytes": 2242174,
+  "versionCode": 10,
+  "versionName": "0.2.7-owner-ota-dev",
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v10-35ffa77ec0bf/ClickAirV2-fixed-key.apk",
+  "sha256": "56177b56c7b5f4878a53390d4d31929190c732d722798ae04ecfd57ab325f4e8",
+  "sizeBytes": 2250366,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
-  "releaseNotes": "Owner QA v9: approved UI/3 languages/App Icon; 60dp gray-when-Stopped/green-when-Running Floating with idle recovery; Settings Diagnostics and battery/background guidance; Android PackageInstaller.Session-based OTA with user consent and delayed-confirmation Stop guard; Upcoming clipped fourth-card merge when its Date+Time were already read; sanitized Sync node diagnostics. NOT fixed/verified: AARide Job Pool→Upcoming navigation, Advance Accept→YES, server-side Instant Reject result. Supabase Android automatic upload is not yet implemented; QA TXT export remains. Stop ClickAirV2 before updating. Do not uninstall or clear data. HONOR may refuse AARide Online when Developer Options enabled; ClickAirV2 does not bypass this.",
-  "publishedAt": "2026-10-14T04:09:08Z"
+  "releaseNotes": "Owner QA v10 diagnostics: approved Power Floating button (ON green rotating light / OFF gray), 80-level Accessibility diagnostic capture, 150ms bounded Sync/Stopped diagnostic and 60ms Instant capture, allowlisted contentDescription evidence, measured read time/budget and key-node log retention. Still NOT verified: automatic Sync to AARide Upcoming, complete Online booking scan, Advance Accept/YES or server-confirmed Instant Reject. Keep ClickAirV2 STOP while collecting AARide page data; use Settings > Share Log afterward. AARide Offline Upcoming does not prove zero bookings. In-place update from v9; do not uninstall.",
+  "publishedAt": "2026-10-15T00:54:44Z"
 }
