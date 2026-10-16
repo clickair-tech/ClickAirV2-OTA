@@ -3,12 +3,12 @@
   "channel": "owner-qa",
   "packageName": "com.dnsv2",
   "available": true,
-  "versionCode": 13,
-  "versionName": "0.2.10-owner-ota-dev",
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v13-2b662d3b4a1c/ClickAirV2-fixed-key.apk",
-  "sha256": "32ecebf46d6f2efb49bd688ba7cc5ca889e24445027b7ba546f60979de3e0fca",
+  "versionCode": 14,
+  "versionName": "0.2.11-owner-ota-dev",
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v14-52be733e5f6a/ClickAirV2-fixed-key.apk",
+  "sha256": "ea1c14af8cb599ac7630f043ddd40b44b5473d35228dc11de18e5322436f6b6e",
   "sizeBytes": 2262654,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
-  "releaseNotes": "OWNER QA v13: Fixes HONOR AARide 1856912450 Instant Filter Reject path when an independently verified current Instant order fails a saved condition, with fresh proof and wrong-field guards. Instant auto Accept still disabled. Sync now targets the right Upcoming tab using observed Online Job Pool coordinates, with transient-focus retry and contradictory-label checks. Full Online booking-card scan and My Schedule updates remain unverified/inactive on the navigation-only fallback; offline/unknown Upcoming cannot clear My Schedule. Main source PR #31 CI PASS, independent read-only review PASS, signed with unchanged permanent v12 certificate; on-device v13 not yet verified. Stop ClickAirV2 before in-place update; never uninstall or clear data. Close Developer Options/USB Debugging for AARide Online and export the Settings retained TXT log after testing.",
-  "publishedAt": "2026-10-15T23:10:14Z"
+  "releaseNotes": "OWNER TEST v14 fixes Job Pool Recent to Upcoming page recognition using the actual HONOR v13 retained-log(8) coordinates. AARide own verified Back and tab nodes are used; no coordinate taps or global Back. Current-page recheck failures before click may be retried within the existing bounded Sync deadline; an attempted Android click returning false is never retried. Full Upcoming card scan/My Schedule synchronization is still unverified and unavailable under the navigation-only fallback; unverified/Offline Upcoming does NOT delete schedule. Instant FILTER behavior unchanged from v13 (verified FAIL can Reject; auto Accept still blocked). Cloud full CI, read-only code review and local targeted test passed, signed with unchanged permanent v13 certificate. Stop ClickAirV2 before in-place update, never uninstall/clear data. Close USB Debugging and Developer Options before AARide Online. Test Sync and export Settings retained TXT log.",
+  "publishedAt": "2026-10-16T00:16:43Z"
 }
