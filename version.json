@@ -3,12 +3,12 @@
   "channel": "owner-qa",
   "packageName": "com.dnsv2",
   "available": true,
-  "versionCode": 14,
-  "versionName": "0.2.11-owner-ota-dev",
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v14-52be733e5f6a/ClickAirV2-fixed-key.apk",
-  "sha256": "ea1c14af8cb599ac7630f043ddd40b44b5473d35228dc11de18e5322436f6b6e",
-  "sizeBytes": 2262654,
+  "versionCode": 15,
+  "versionName": "0.2.12-owner-ota-dev",
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v15-e33290237b8e/ClickAirV2-fixed-key.apk",
+  "sha256": "7c415b9799c6d0dd8197261ebb916147c8bbf15e78fa6343ab590473a736e06b",
+  "sizeBytes": 2270846,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
-  "releaseNotes": "OWNER TEST v14 fixes Job Pool Recent to Upcoming page recognition using the actual HONOR v13 retained-log(8) coordinates. AARide own verified Back and tab nodes are used; no coordinate taps or global Back. Current-page recheck failures before click may be retried within the existing bounded Sync deadline; an attempted Android click returning false is never retried. Full Upcoming card scan/My Schedule synchronization is still unverified and unavailable under the navigation-only fallback; unverified/Offline Upcoming does NOT delete schedule. Instant FILTER behavior unchanged from v13 (verified FAIL can Reject; auto Accept still blocked). Cloud full CI, read-only code review and local targeted test passed, signed with unchanged permanent v13 certificate. Stop ClickAirV2 before in-place update, never uninstall/clear data. Close USB Debugging and Developer Options before AARide Online. Test Sync and export Settings retained TXT log.",
-  "publishedAt": "2026-10-16T00:16:43Z"
+  "releaseNotes": "OWNER QA v15：修复 Advance 不进入 Reject 判断的问题。当前已验证页面下，价格、上下车地点、车型、付款方式或小时段可靠不符时，可按 Advance 自己的规则 Reject；点击前重新核对，保留 Stop/权限保护。改进 Upcoming 选中状态验证及滚动失败恢复，新增 Advance 诊断。218项本地测试、两种Lint及独立审查通过；云端完整构建与固定签名验证通过。\n限制：完整 My Schedule Sync 仍不可用；缺少可靠年份时 Date/Gap 保持 UNKNOWN。Instant/Advance 手机与服务器结果仍需本次独立测试，自动 Accept/YES 仍受限。\n更新前先 Stop，原地覆盖更新，不要卸载或清除数据。测试后在 Settings 导出完整 retained TXT log。",
+  "publishedAt": "2026-10-16T07:07:10Z"
 }
