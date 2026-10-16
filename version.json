@@ -3,12 +3,12 @@
   "channel": "owner-qa",
   "packageName": "com.dnsv2",
   "available": true,
-  "versionCode": 17,
-  "versionName": "0.2.14-owner-ota-dev",
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v17-69edbf78069a/ClickAirV2-fixed-key.apk",
-  "sha256": "af4bca1f3a7ea76e4ccb60222253dd35cc95eda7899cf9b0e0fdc9c6fc10eb67",
-  "sizeBytes": 2274942,
+  "versionCode": 18,
+  "versionName": "0.2.15-owner-ota-dev",
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v18-067e5b4afa7a/ClickAirV2-fixed-key.apk",
+  "sha256": "2ba17195026d4f3e80a04f771fb9c8902f68fa9f0622ef9736dcd58aa57e188d",
+  "sizeBytes": 2283134,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
-  "releaseNotes": "ClickAirV2 OWNER QA v17 — 0.2.14-owner-ota-dev\n\n按 Owner 确认的规则补全年份：AARide 不显示年份时，使用手机当前日期对应的最近一次未来月/日（包括今天），跨年自动进入下一年，并核对星期；不匹配或无效日期仍为 UNKNOWN。日期和小时独立判断，保留分钟。\n修复 Gap 未使用真实日程的问题：使用当前未过期的 System Sync + Manual Add，支持跨午夜冲突与等于设定间隔的边界。有效 Sync 自动恢复日程检查。保留既有空 Upcoming Sync 和 Instant/Advance Reject。\n修复无关 System UI 状态事件导致 Floating 主动隐藏的问题，核对实际前台，并保留锁屏、权限页面等保护。读取预算仍为60/120/150ms，没有新增固定订单点击等待。\n\n验证：240 项 JVM 测试、34 项脚本测试通过，Debug/Release Lint 均0错误（各41条警告），独立审查覆盖17/17文件。\n\n限制：有订单的 Upcoming/Pending 卡片导入、滚动及完整自动 Sync 仍缺当前非空页面证据并未实现。本次不启用未验证的自动 Accept/YES。星期不一致、字段不完整或日程不可信时，相关判断仍保持 UNKNOWN。Android 受保护页面和 OEM 进程终止不能保证 Floating 始终显示；新版本手机效果需 Owner 测试。\n\n更新前先 Stop，原地覆盖更新，不要卸载或清除数据。日志仍只保存在本地，无 Supabase 自动上传。",
-  "publishedAt": "2026-10-16T12:25:31Z"
+  "releaseNotes": "ClickAirV2 Owner QA v18 / 0.2.15-owner-ota-dev\n\n新增 AARide 点击事件记录；V2 Stop 时，对手动点击及关键页面做有次数和时间上限的节点采集。独立保存脱敏点击与页面证据，导出时标明节点缺失、读取不完整或日志丢弃。普通运行读取预算不变，日志仍仅保存在本机。\n\nFloating 取消因切换页面、根节点暂不可读而主动隐藏；Android 系统保护页面或进程终止仍可能影响显示。\n\n本次是日志采集及 Floating 更新，不是自动 Advance Accept/YES 已完成。完整有订单 Upcoming/Pending 导入仍待页面证据。\n\n更新后先 Stop，手动进入 Job Pool 再返回，然后马上导出日志确认点击与页面记录。无需为这一步创建订单。继续使用现有 com.dnsv2 和原签名，可原位更新，勿卸载或清除数据。",
+  "publishedAt": "2026-10-16T16:52:59Z"
 }
