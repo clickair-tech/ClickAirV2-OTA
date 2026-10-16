@@ -3,12 +3,12 @@
   "channel": "owner-qa",
   "packageName": "com.dnsv2",
   "available": true,
-  "versionCode": 16,
-  "versionName": "0.2.13-owner-ota-dev",
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v16-cd7912bbf273/ClickAirV2-fixed-key.apk",
-  "sha256": "d25c122db2e575eb5fb79a1061b61962210e27197f4832e18a88fb70291a3085",
-  "sizeBytes": 2270846,
+  "versionCode": 17,
+  "versionName": "0.2.14-owner-ota-dev",
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v17-69edbf78069a/ClickAirV2-fixed-key.apk",
+  "sha256": "af4bca1f3a7ea76e4ccb60222253dd35cc95eda7899cf9b0e0fdc9c6fc10eb67",
+  "sizeBytes": 2274942,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
-  "releaseNotes": "ClickAirV2 OWNER QA v16 — 0.2.13-owner-ota-dev\n\n修复 Instant / Advance 的付款方式、车型文字较长时整笔筛选变 UNKNOWN 而漏 Reject 的问题；保留字段、按钮、Stop 和权限检查。\n加入明确空 Upcoming 的手动 Sync：从 Home Online 进入，连续确认“No upcoming job”及说明文字后，记录空同步成功；仅清除 System Sync，保留 Manual Add。空白、Offline、读取失败不算空列表。增加关键 Sync 页面诊断。\n合并 Floating 普通界面切换与意外脱离后的恢复修复；Android 受保护页面仍遵守系统限制。普通/订单校验/Sync 读取预算保持60/120/150ms，没有为订单点击添加固定等待。\n\n验证：231 项 JVM 测试通过，Debug/Release Lint 均 0 错误，33 项脚本测试通过，独立审查覆盖全部 20 个文件。KLIA国际机场T1 / KLIA 国际机场 T2 已加入现有 KLIA 匹配器的回归测试。\n\n限制：有订单的 Upcoming 卡片、可靠年份、滚动库存读取及完整自动 My Schedule Sync 仍未完成。Advance Date/Gap 缺少可靠年份时保持 UNKNOWN。自动 Accept/YES 仍受限。空列表、Floating 和 Reject 的实际手机/服务器结果须由 Owner 更新后测试；不把源码测试当成真机验证。\n\n更新前先 Stop；原地覆盖更新，不要卸载或清除数据。测试后在 Settings 导出完整 retained TXT log。日志仍仅本地保存，没有 Supabase 自动上传。",
-  "publishedAt": "2026-10-16T09:57:16Z"
+  "releaseNotes": "ClickAirV2 OWNER QA v17 — 0.2.14-owner-ota-dev\n\n按 Owner 确认的规则补全年份：AARide 不显示年份时，使用手机当前日期对应的最近一次未来月/日（包括今天），跨年自动进入下一年，并核对星期；不匹配或无效日期仍为 UNKNOWN。日期和小时独立判断，保留分钟。\n修复 Gap 未使用真实日程的问题：使用当前未过期的 System Sync + Manual Add，支持跨午夜冲突与等于设定间隔的边界。有效 Sync 自动恢复日程检查。保留既有空 Upcoming Sync 和 Instant/Advance Reject。\n修复无关 System UI 状态事件导致 Floating 主动隐藏的问题，核对实际前台，并保留锁屏、权限页面等保护。读取预算仍为60/120/150ms，没有新增固定订单点击等待。\n\n验证：240 项 JVM 测试、34 项脚本测试通过，Debug/Release Lint 均0错误（各41条警告），独立审查覆盖17/17文件。\n\n限制：有订单的 Upcoming/Pending 卡片导入、滚动及完整自动 Sync 仍缺当前非空页面证据并未实现。本次不启用未验证的自动 Accept/YES。星期不一致、字段不完整或日程不可信时，相关判断仍保持 UNKNOWN。Android 受保护页面和 OEM 进程终止不能保证 Floating 始终显示；新版本手机效果需 Owner 测试。\n\n更新前先 Stop，原地覆盖更新，不要卸载或清除数据。日志仍只保存在本地，无 Supabase 自动上传。",
+  "publishedAt": "2026-10-16T12:25:31Z"
 }
