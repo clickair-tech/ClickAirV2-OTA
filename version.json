@@ -3,12 +3,12 @@
   "channel": "owner-qa",
   "packageName": "com.dnsv2",
   "available": true,
-  "versionCode": 18,
-  "versionName": "0.2.15-owner-ota-dev",
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v18-067e5b4afa7a/ClickAirV2-fixed-key.apk",
-  "sha256": "2ba17195026d4f3e80a04f771fb9c8902f68fa9f0622ef9736dcd58aa57e188d",
-  "sizeBytes": 2283134,
+  "versionCode": 19,
+  "versionName": "0.2.16-owner-ota-dev",
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v19-58f52afa1acc/ClickAirV2-fixed-key.apk",
+  "sha256": "2c4bf86ef40aa48479c4b0550811c70622e3254108cf1bd429edc7abbb8ff37e",
+  "sizeBytes": 2291326,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
-  "releaseNotes": "ClickAirV2 Owner QA v18 / 0.2.15-owner-ota-dev\n\n新增 AARide 点击事件记录；V2 Stop 时，对手动点击及关键页面做有次数和时间上限的节点采集。独立保存脱敏点击与页面证据，导出时标明节点缺失、读取不完整或日志丢弃。普通运行读取预算不变，日志仍仅保存在本机。\n\nFloating 取消因切换页面、根节点暂不可读而主动隐藏；Android 系统保护页面或进程终止仍可能影响显示。\n\n本次是日志采集及 Floating 更新，不是自动 Advance Accept/YES 已完成。完整有订单 Upcoming/Pending 导入仍待页面证据。\n\n更新后先 Stop，手动进入 Job Pool 再返回，然后马上导出日志确认点击与页面记录。无需为这一步创建订单。继续使用现有 com.dnsv2 和原签名，可原位更新，勿卸载或清除数据。",
-  "publishedAt": "2026-10-16T16:52:59Z"
+  "releaseNotes": "ClickAirV2 Owner QA v19 / 0.2.16-owner-ota-dev\n\nInstant Filter 条件全通过时接通单次 Accept；Reject All 和 Manual 模式保持各自行为，不操作 ON THE WAY / Arrived / On Board。\n\nAdvance 条件全通过后接通本次会话拥有的 Accept → YES → 匹配 Confirmed → 保存日程 → 左上角返回 → 验证 Home Online。支持当前左对齐地址布局、Confirmed 的 Today 日期和 AM/PM 时间。停止、权限变化、页面不匹配或结果不确定时不继续／重放。\n\n随后执行一次已有 Post-Accept Upcoming 导航；完整有订单列表／Pending 导入仍未完成。列表无法验证或接单后立即显示空列表时保留刚确认的日程，不假报完整 Sync。请检查 My Schedule，缺少的时间可手动添加。\n\nNormal offer 60/120ms budget unchanged; owned Advance transition reads use bounded150ms. 本次未由代理操作真实订单，自动流程需 Owner 实机验证。\n\n沿用原包名和签名，原位更新即可，勿卸载或清除数据。测试后请及时导出日志。",
+  "publishedAt": "2026-10-16T17:39:32Z"
 }
