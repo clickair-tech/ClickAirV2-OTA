@@ -3,12 +3,12 @@
   "channel": "owner-qa",
   "packageName": "com.dnsv2",
   "available": true,
-  "versionCode": 19,
-  "versionName": "0.2.16-owner-ota-dev",
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v19-58f52afa1acc/ClickAirV2-fixed-key.apk",
-  "sha256": "2c4bf86ef40aa48479c4b0550811c70622e3254108cf1bd429edc7abbb8ff37e",
-  "sizeBytes": 2291326,
+  "versionCode": 20,
+  "versionName": "0.2.17-owner-ota-dev",
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v20-e651321ee0af/ClickAirV2-fixed-key.apk",
+  "sha256": "e18f24933ff5956bf684b1488526f39ebd3cd3e9da939f7487ae2eec195c4642",
+  "sizeBytes": 2295422,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
-  "releaseNotes": "ClickAirV2 Owner QA v19 / 0.2.16-owner-ota-dev\n\nInstant Filter 条件全通过时接通单次 Accept；Reject All 和 Manual 模式保持各自行为，不操作 ON THE WAY / Arrived / On Board。\n\nAdvance 条件全通过后接通本次会话拥有的 Accept → YES → 匹配 Confirmed → 保存日程 → 左上角返回 → 验证 Home Online。支持当前左对齐地址布局、Confirmed 的 Today 日期和 AM/PM 时间。停止、权限变化、页面不匹配或结果不确定时不继续／重放。\n\n随后执行一次已有 Post-Accept Upcoming 导航；完整有订单列表／Pending 导入仍未完成。列表无法验证或接单后立即显示空列表时保留刚确认的日程，不假报完整 Sync。请检查 My Schedule，缺少的时间可手动添加。\n\nNormal offer 60/120ms budget unchanged; owned Advance transition reads use bounded150ms. 本次未由代理操作真实订单，自动流程需 Owner 实机验证。\n\n沿用原包名和签名，原位更新即可，勿卸载或清除数据。测试后请及时导出日志。",
-  "publishedAt": "2026-10-16T17:39:32Z"
+  "releaseNotes": "ClickAirV2 Owner QA v20 / 0.2.17-owner-ota-dev\n\n修复本次自动 Advance Accept→YES 后停在 Confirmed：确认本次流程拥有的 Confirmed 和返回节点后，使用左上角内部返回；地址文字或日期核对失败不再阻挡返回。只有核对通过的日期时间才直接保存，失败项写入数字诊断，随后从 Upcoming 同步。\n\n修复有订单 Job Pool 被 Advance booking 标签误排除，接通 Upcoming 已接受 Advance 卡片的日期时间导入 My Schedule，无须 Pending 字样。支持 Today、星期/月日、跨年和分钟，保留手动日程；多订单可滚动读取，读取不完整明确记为 PARTIAL，技术失败不清空旧日程。完成后内部返回并验证 Home Online。\n\nRecent 未接受订单、行程中 On the way/Arrived/On Board 页面不导入、不点击。沿用 Instant 独立过滤和 Floating 行为。普通接单60/120ms读取预算不变。Startup/取消触发的完整自动Sync接线仍属后续工作；本次是手动及已有Post-Accept Sync修复。\n\n沿用原包名与签名，直接覆盖更新，不用卸载或清除数据。代码测试不代表实机成功，本次未由代理操作真实订单；请测试后及时导出日志。",
+  "publishedAt": "2026-10-17T02:59:40Z"
 }
