@@ -3,12 +3,12 @@
   "channel": "owner-qa",
   "packageName": "com.dnsv2",
   "available": true,
-  "versionCode": 20,
-  "versionName": "0.2.17-owner-ota-dev",
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v20-e651321ee0af/ClickAirV2-fixed-key.apk",
-  "sha256": "e18f24933ff5956bf684b1488526f39ebd3cd3e9da939f7487ae2eec195c4642",
-  "sizeBytes": 2295422,
+  "versionCode": 21,
+  "versionName": "0.2.18-owner-ota-dev",
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v21-0250e1a8e12b/ClickAirV2-fixed-key.apk",
+  "sha256": "2b42e9d2efb33d5d4350abd313ebe0a012e3a9a30dad6a7f226606a9170f7546",
+  "sizeBytes": 2307934,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
-  "releaseNotes": "ClickAirV2 Owner QA v20 / 0.2.17-owner-ota-dev\n\n修复本次自动 Advance Accept→YES 后停在 Confirmed：确认本次流程拥有的 Confirmed 和返回节点后，使用左上角内部返回；地址文字或日期核对失败不再阻挡返回。只有核对通过的日期时间才直接保存，失败项写入数字诊断，随后从 Upcoming 同步。\n\n修复有订单 Job Pool 被 Advance booking 标签误排除，接通 Upcoming 已接受 Advance 卡片的日期时间导入 My Schedule，无须 Pending 字样。支持 Today、星期/月日、跨年和分钟，保留手动日程；多订单可滚动读取，读取不完整明确记为 PARTIAL，技术失败不清空旧日程。完成后内部返回并验证 Home Online。\n\nRecent 未接受订单、行程中 On the way/Arrived/On Board 页面不导入、不点击。沿用 Instant 独立过滤和 Floating 行为。普通接单60/120ms读取预算不变。Startup/取消触发的完整自动Sync接线仍属后续工作；本次是手动及已有Post-Accept Sync修复。\n\n沿用原包名与签名，直接覆盖更新，不用卸载或清除数据。代码测试不代表实机成功，本次未由代理操作真实订单；请测试后及时导出日志。",
-  "publishedAt": "2026-10-17T02:59:40Z"
+  "releaseNotes": "ClickAirV2 0.2.18（21）\n\n修复重启后通知读取已授权、监听服务未连接导致 Start 无法启动：增加有限次系统重连请求和连接诊断。只有真实连接成功才允许 Start；不会自动启用 Start、绕过权限或重放旧动作。若系统仍拒绝连接，保持阻止并记录失败，供后续排查。\n\n包含 Home、Rules、My Schedule、Settings 四页统一改版和中文／English／Bahasa Melayu 文案；保留 Floating Power Button 的启动、停止与拖动行为。\n\nAdvance 与 Instant 均提供 Filter／Reject All／Manual，开关互斥。Manual／Reject All 可以保存空白价格；只有 Filter 验证完整筛选条件。全新安装默认两个 Reject All；旧版升级保留原 Advance 筛选行为、已有 Instant 模式、全部规则及日程。\n\n沿用原包名和正式签名，可覆盖更新，不要卸载或清除数据。新存储格式不支持直接降级到旧 APK。自动化测试与独立审查通过不等于真实手机重启已验证；请更新后先确认通知监听 connected，再重启手机并重新打开 ClickAirV2 验证 Start，异常时导出新日志。\n",
+  "publishedAt": "2026-10-17T07:55:00Z"
 }
