@@ -3,12 +3,12 @@
   "channel": "owner-qa",
   "packageName": "com.dnsv2",
   "available": true,
-  "versionCode": 22,
-  "versionName": "0.2.19-owner-ota-dev",
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v22-9ec34c0c018d/ClickAirV2-fixed-key.apk",
-  "sha256": "9c7a296c984012cd3831a73250692002a86578cf44bdd5155d3ff862830b0cd7",
+  "versionCode": 23,
+  "versionName": "0.2.20-owner-ota-dev",
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v23-e63a463f5e85/ClickAirV2-fixed-key.apk",
+  "sha256": "7aa41c7c287ab14662acd0574ef183e9805bb435f257a1c1c6a25d707394a75a",
   "sizeBytes": 2312030,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
-  "releaseNotes": "ClickAirV2 v22 (0.2.19) OWNER QA：仅调整 Home、Rules、My Schedule、Settings 四页的视觉样式、按钮、卡片和布局，并缩短展示说明。没有修改 Advance/Instant 接单、Upcoming Sync、日程数据、Floating 或会员付款功能。三语与旧用户规则保持不变。请先 Stop 后原地覆盖更新，不要卸载或清除数据。新存储格式不支持直接降级。自动测试通过不代表 HONOR 真机画面已验证，更新后请检查布局并反馈。",
-  "publishedAt": "2026-10-17T11:59:06Z"
+  "releaseNotes": "ClickAirV2 v23 (0.2.20) OWNER QA：只修正 My Schedule 中 Sync 按钮的启用／禁用颜色。可按时显示明显青绿色渐变、白色粗体字；不可按／同步中为浅灰底和灰字。原有 Sync 权限门槛、Upcoming 读取、Advance/Instant 接单和其他设置保持不变。请先 Stop 后覆盖更新，不要卸载或清空资料。如果 Sync 仍不可按，表示原有安全条件未满足，本次不会强制允许点击。已通过自动测试和签名验证，真实 HONOR 手机仍需测试。",
+  "publishedAt": "2026-10-17T21:16:12Z"
 }
