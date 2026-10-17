@@ -3,12 +3,12 @@
   "channel": "owner-qa",
   "packageName": "com.dnsv2",
   "available": true,
-  "versionCode": 23,
-  "versionName": "0.2.20-owner-ota-dev",
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v23-e63a463f5e85/ClickAirV2-fixed-key.apk",
-  "sha256": "7aa41c7c287ab14662acd0574ef183e9805bb435f257a1c1c6a25d707394a75a",
-  "sizeBytes": 2312030,
+  "versionCode": 24,
+  "versionName": "0.2.21-owner-ota-dev",
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v24-26261d2e21d6/ClickAirV2-fixed-key.apk",
+  "sha256": "57e0257ec7431802e6e3b399f096219bfbc21dc8a14734c6d61da4d20bd27850",
+  "sizeBytes": 2320222,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
-  "releaseNotes": "ClickAirV2 v23 (0.2.20) OWNER QA：只修正 My Schedule 中 Sync 按钮的启用／禁用颜色。可按时显示明显青绿色渐变、白色粗体字；不可按／同步中为浅灰底和灰字。原有 Sync 权限门槛、Upcoming 读取、Advance/Instant 接单和其他设置保持不变。请先 Stop 后覆盖更新，不要卸载或清空资料。如果 Sync 仍不可按，表示原有安全条件未满足，本次不会强制允许点击。已通过自动测试和签名验证，真实 HONOR 手机仍需测试。",
-  "publishedAt": "2026-10-17T21:16:12Z"
+  "releaseNotes": "ClickAirV2 v24 (0.2.21) OWNER QA：仅修正 Home、Rules、My Schedule、Settings 的 UI 显示，包括浅色状态栏深色图标、简短 Home 提示、区分上次 Sync 结果与当前同步可用性、压缩 Diagnostics 按钮及卡片间距，保留中英马三语。不修改 Advance/Instant 接单、Upcoming Sync、My Schedule 数据、Floating、权限验证和 OTA 行为。已经通过完整单元测试、CI、Lint 与永久签名校验，但 HONOR 真机显示仍待验证。请先 Stop，再覆盖安装，不要卸载或清除数据。",
+  "publishedAt": "2026-10-17T23:46:13Z"
 }
