@@ -3,12 +3,12 @@
   "channel": "owner-qa",
   "packageName": "com.dnsv2",
   "available": true,
-  "versionCode": 24,
-  "versionName": "0.2.21-owner-ota-dev",
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v24-26261d2e21d6/ClickAirV2-fixed-key.apk",
-  "sha256": "57e0257ec7431802e6e3b399f096219bfbc21dc8a14734c6d61da4d20bd27850",
-  "sizeBytes": 2320222,
+  "versionCode": 25,
+  "versionName": "0.2.22-owner-ota-dev",
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v25-b533a937d0ec/ClickAirV2-fixed-key.apk",
+  "sha256": "632dff0af78b9ad981abfe183a96c163647d534909218c30cae4d7f7e3b12edd",
+  "sizeBytes": 2333294,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
-  "releaseNotes": "ClickAirV2 v24 (0.2.21) OWNER QA：仅修正 Home、Rules、My Schedule、Settings 的 UI 显示，包括浅色状态栏深色图标、简短 Home 提示、区分上次 Sync 结果与当前同步可用性、压缩 Diagnostics 按钮及卡片间距，保留中英马三语。不修改 Advance/Instant 接单、Upcoming Sync、My Schedule 数据、Floating、权限验证和 OTA 行为。已经通过完整单元测试、CI、Lint 与永久签名校验，但 HONOR 真机显示仍待验证。请先 Stop，再覆盖安装，不要卸载或清除数据。",
-  "publishedAt": "2026-10-17T23:46:13Z"
+  "releaseNotes": "ClickAirV2 v25 (0.2.22) OWNER QA：恢复 Home、Rules、Settings 的白色卡片与小图标、清晰的筛选文字和中英马三语排版。Booking Time 改为两列：左 00:00–11:59、右 12:00–23:59，每格显示 HH:00–HH:59；保留已有时段选择及筛选逻辑。没有修改 Advance/Instant 接单、Upcoming Sync、权限、Floating 和 OTA 程序。GitHub CI、Lint、永久签名及公开 APK 字节一致性验证通过；HONOR 真机视觉验收待做。已知：320dp 模拟屏上的 Settings 权限按钮箭头可能不显示。更新前先 Stop，直接覆盖安装；不要卸载或清除数据。",
+  "publishedAt": "2026-10-18T03:10:09Z"
 }
