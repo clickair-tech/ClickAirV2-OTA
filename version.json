@@ -3,12 +3,12 @@
   "channel": "owner-qa",
   "packageName": "com.dnsv2",
   "available": true,
-  "versionCode": 25,
-  "versionName": "0.2.22-owner-ota-dev",
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v25-b533a937d0ec/ClickAirV2-fixed-key.apk",
-  "sha256": "632dff0af78b9ad981abfe183a96c163647d534909218c30cae4d7f7e3b12edd",
+  "versionCode": 26,
+  "versionName": "0.2.23-owner-ota-dev",
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v26-0ff51e91ccb7/ClickAirV2-fixed-key.apk",
+  "sha256": "d5ad12b13db609aced4b539b40d51f934938277abbef08ec0349a72922de0ee5",
   "sizeBytes": 2333294,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
-  "releaseNotes": "ClickAirV2 v25 (0.2.22) OWNER QA：恢复 Home、Rules、Settings 的白色卡片与小图标、清晰的筛选文字和中英马三语排版。Booking Time 改为两列：左 00:00–11:59、右 12:00–23:59，每格显示 HH:00–HH:59；保留已有时段选择及筛选逻辑。没有修改 Advance/Instant 接单、Upcoming Sync、权限、Floating 和 OTA 程序。GitHub CI、Lint、永久签名及公开 APK 字节一致性验证通过；HONOR 真机视觉验收待做。已知：320dp 模拟屏上的 Settings 权限按钮箭头可能不显示。更新前先 Stop，直接覆盖安装；不要卸载或清除数据。",
-  "publishedAt": "2026-10-18T03:10:09Z"
+  "releaseNotes": "ClickAirV2 v26 (0.2.23) OWNER QA\n\n修复进入 Job Pool 前的临时节点验证失败导致 Sync 过早取消；修复 Advance YES 后短暂页面切换导致 Confirmed 返回流程中断；通知服务断线后增加有冷却和次数限制的自动重连。保留 Start/Stop、权限及防重复点击保护。Upcoming 继续按日期和时间导入，部分露出的第四张卡片不视为额外错误。\n\n代码测试、构建、Lint 和独立审查通过；手机实际效果仍待 Owner 更新验证。沿用永久签名，更新前先 Stop，直接覆盖安装，不要卸载或清除数据。",
+  "publishedAt": "2026-10-18T11:02:40Z"
 }
