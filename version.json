@@ -1,14 +1,14 @@
 {
+  "packageName": "com.dnsv2",
+  "versionCode": 28,
+  "versionName": "0.2.25-owner-ota-dev",
+  "sha256": "3d4435e7880fff81537bd4720e36d6000eb73f5b4714cd3feb6e09ad8ecc0729",
+  "sizeBytes": 2390638,
+  "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
-  "packageName": "com.dnsv2",
   "available": true,
-  "versionCode": 27,
-  "versionName": "0.2.24-owner-ota-dev",
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v27-f1b867503206/ClickAirV2-fixed-key.apk",
-  "sha256": "966b81946e7960e6e83fc629575684e7201e3fead24fcdabcaaf7211162632e7",
-  "sizeBytes": 2337390,
-  "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
-  "releaseNotes": "ClickAirV2 v27（0.2.24）Owner QA\n\nUI：Start/Stop 按钮图标重新布局；My Schedule 的 Sync 移到顶部；Booking Gap 采用 60/90/120/150/180 分钟直选；Settings 删除多余的 Details、Refresh、Privacy 和重复的检查按钮；优化顶部 Header、底部导航、Home 规则摘要和 Floating 贴边；Update 状态区分最新版本、有新版本和连接失败，支持中文、英文、马来文。\n\n延续 v26 的接单逻辑。GitHub 完整测试、Lint、构建及永久签名核验通过；真机表现尚未验证。升级前先 Stop，直接覆盖安装，不要卸载或清除数据。",
-  "publishedAt": "2026-10-18T23:41:58Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v28-6f9adf59ed74/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "ClickAirV2 v28（0.2.25）Owner QA\n\n增强本地诊断：关联订单观察、实际规则与日程、识别失败原因、动作及同步流程，支持 TXT / ZIP 导出与完整性报告。默认不保存地址原文；不含 Supabase 或自动上传。\n\n沿用原有接单规则、采集预算和动作保护；不包含另一个独立工作区的 59px 地址高度补丁。\n\n真机性能、48 小时保留及长期稳定性仍待 Owner 测试；主机合成性能结果不能代表手机表现。升级前先 Stop，直接覆盖安装，不要卸载或清除数据。\n",
+  "publishedAt": "2026-10-19T22:51:02.390864Z"
 }
