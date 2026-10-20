@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 30,
-  "versionName": "0.2.27-owner-ota-dev",
-  "sha256": "ede56116758fff5961680bf33f06dbd2875e15c54e60c2cb458c2b315491d07f",
-  "sizeBytes": 2394734,
+  "versionCode": 31,
+  "versionName": "0.2.28-owner-ota-dev",
+  "sha256": "18d1deb21a589210a488b3a8768e394a90e605049ae60635c91a0aea4b07ba98",
+  "sizeBytes": 2398830,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v30-98b2689b4449/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "ClickAirV2 v30（0.2.27）Owner QA\n\nSettings：General 更名为 Language，Update Version 独立显示；Ignore Battery Optimization 和 Update 按钮不再显示左侧图标。\nRules：Booking Dates 七天日期改为双栏，保持新安装默认全选与已有用户勾选；简化 Booking Dates／Booking Time 标题；同步调整中英马三语。\n\n本版没有修改自动接单、拒单、Sync、Booking Gap 或 Floating 逻辑。\n升级前先 Stop。直接覆盖安装，不要卸载 App 或清除数据；HONOR 真机表现待 Owner 测试。",
-  "publishedAt": "2026-10-20T12:10:49Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v31-608441762d6c/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "ClickAirV2 v31（0.2.28）Owner QA\n\n修复 Upcoming 跨屏扫描中已读卡片顶部被裁切后持续标记未知的问题；只有内容和位移证据对应时才合并，真正未知的日程仍受 Gap 保护。\n修复前次 Reject 的等待状态阻挡不同可信候选；保留同屏防重复、Accept/YES 不确定结果保护及点击前复核。\n浮标不再将普通多字段列表卡片整块视为障碍；松手优先附近落位，无附近安全位置时保持可见可拖并记录冲突。\n\n升级前先 Stop，直接覆盖安装，不要卸载或清除数据。更新后先 Sync，再测试连续候选及浮标拖动。相同资料且未观察到 Home 的候选仍保守处理。自动测试不是 HONOR 真机或服务器订单结果验证，仍需 Owner 测试。",
+  "publishedAt": "2026-10-20T17:03:21Z"
 }
