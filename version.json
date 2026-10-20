@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 28,
-  "versionName": "0.2.25-owner-ota-dev",
-  "sha256": "3d4435e7880fff81537bd4720e36d6000eb73f5b4714cd3feb6e09ad8ecc0729",
-  "sizeBytes": 2390638,
+  "versionCode": 29,
+  "versionName": "0.2.26-owner-ota-dev",
+  "sha256": "842a056a31ddad18eb5f15d6d653ede7fc46b2b065ef96bd2a881a91dacd7e05",
+  "sizeBytes": 2394734,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v28-6f9adf59ed74/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "ClickAirV2 v28（0.2.25）Owner QA\n\n增强本地诊断：关联订单观察、实际规则与日程、识别失败原因、动作及同步流程，支持 TXT / ZIP 导出与完整性报告。默认不保存地址原文；不含 Supabase 或自动上传。\n\n沿用原有接单规则、采集预算和动作保护；不包含另一个独立工作区的 59px 地址高度补丁。\n\n真机性能、48 小时保留及长期稳定性仍待 Owner 测试；主机合成性能结果不能代表手机表现。升级前先 Stop，直接覆盖安装，不要卸载或清除数据。\n",
-  "publishedAt": "2026-10-19T22:51:02.390864Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v29-3e2be9274613/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "ClickAirV2 v29（0.2.26）Owner QA\n\n修复 Advance / Instant 地址行高度与位置变化造成的识别阻挡，并保留原有筛选和点击前保护。\n修复浮标拖动途中遇到控件被阻止的问题；拖动时跟随手指，松手后按最新页面寻找附近安全位置。\n\n升级前先 Stop。直接覆盖安装，不要卸载或清除数据。请重点测试紧凑地址订单识别、浮标跨控件拖动和松手落位。\n自动回归与构建已验证；HONOR 真机手感和真实订单结果待 Owner 测试。\n",
+  "publishedAt": "2026-10-20T09:03:53.785929Z"
 }
