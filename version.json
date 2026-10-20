@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 29,
-  "versionName": "0.2.26-owner-ota-dev",
-  "sha256": "842a056a31ddad18eb5f15d6d653ede7fc46b2b065ef96bd2a881a91dacd7e05",
+  "versionCode": 30,
+  "versionName": "0.2.27-owner-ota-dev",
+  "sha256": "ede56116758fff5961680bf33f06dbd2875e15c54e60c2cb458c2b315491d07f",
   "sizeBytes": 2394734,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v29-3e2be9274613/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "ClickAirV2 v29（0.2.26）Owner QA\n\n修复 Advance / Instant 地址行高度与位置变化造成的识别阻挡，并保留原有筛选和点击前保护。\n修复浮标拖动途中遇到控件被阻止的问题；拖动时跟随手指，松手后按最新页面寻找附近安全位置。\n\n升级前先 Stop。直接覆盖安装，不要卸载或清除数据。请重点测试紧凑地址订单识别、浮标跨控件拖动和松手落位。\n自动回归与构建已验证；HONOR 真机手感和真实订单结果待 Owner 测试。\n",
-  "publishedAt": "2026-10-20T09:03:53.785929Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v30-98b2689b4449/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "ClickAirV2 v30（0.2.27）Owner QA\n\nSettings：General 更名为 Language，Update Version 独立显示；Ignore Battery Optimization 和 Update 按钮不再显示左侧图标。\nRules：Booking Dates 七天日期改为双栏，保持新安装默认全选与已有用户勾选；简化 Booking Dates／Booking Time 标题；同步调整中英马三语。\n\n本版没有修改自动接单、拒单、Sync、Booking Gap 或 Floating 逻辑。\n升级前先 Stop。直接覆盖安装，不要卸载 App 或清除数据；HONOR 真机表现待 Owner 测试。",
+  "publishedAt": "2026-10-20T12:10:49Z"
 }
