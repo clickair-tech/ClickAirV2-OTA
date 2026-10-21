@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 33,
-  "versionName": "0.2.30-owner-ota-dev",
-  "sha256": "7baacb995992957e82eee1e731810a352d431a742ce190967e48acd904862356",
-  "sizeBytes": 2402926,
+  "versionCode": 35,
+  "versionName": "0.2.32-owner-ota-dev",
+  "sha256": "6e7dadba71940a9bc029c8a95dd977f933c3516b109fd2b2bb4f59478722a537",
+  "sizeBytes": 2407022,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v33-3790ddad8f96/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "ClickAirV2 v33（0.2.30）Owner QA\n\n修复 Upcoming 跨屏扫描时间完整性：日期和时间可靠时即可导入日程，不要求价格、车型、付款或地址齐全。滚动后用同一组卡片、时间标记及一致位移核对顶部残片；确实无法识别的时间仍保留 UNKNOWN，不按四条数量直接判完整。\n完整 Sync 会清除旧的不完整标记；PARTIAL 保留旧系统日程并合并本次读到的时间，只有完整扫描才删除未见到的旧系统日程。Manual、30分钟过期规则及五档 Gap 不变。\n未改变新订单筛选、Accept/Reject 防重复、Floating 或 UI。\n\n验证：Linux CI 402/402 单元测试、45/45 Python 检查、Debug/Release 构建及 Lint 通过。模拟四卡扫描、持久化和返回 Home 通过；不代表 HONOR 真机四卡或服务器接单已验证。\n保留相同永久签名。升级前 Stop，直接覆盖安装，不要卸载或清除数据。更新后先重新执行一次 Sync，确认四条时间和完整状态，再进行真机测试。",
-  "publishedAt": "2026-10-21T07:07:23Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v35-cf7274267728/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "Fix Upcoming cross-scroll card reconciliation and verified new-offer handling after Reject. Run Sync again after updating. Device multi-card and server outcomes remain to be verified.",
+  "publishedAt": "2026-10-21T21:42:49Z"
 }
