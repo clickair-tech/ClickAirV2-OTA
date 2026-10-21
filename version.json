@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 31,
-  "versionName": "0.2.28-owner-ota-dev",
-  "sha256": "18d1deb21a589210a488b3a8768e394a90e605049ae60635c91a0aea4b07ba98",
-  "sizeBytes": 2398830,
+  "versionCode": 32,
+  "versionName": "0.2.29-owner-ota-dev",
+  "sha256": "97eb24e773d59698707cc76275341192361907e7b3ab193f18bac56adb1c5e7a",
+  "sizeBytes": 2402926,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v31-608441762d6c/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "ClickAirV2 v31（0.2.28）Owner QA\n\n修复 Upcoming 跨屏扫描中已读卡片顶部被裁切后持续标记未知的问题；只有内容和位移证据对应时才合并，真正未知的日程仍受 Gap 保护。\n修复前次 Reject 的等待状态阻挡不同可信候选；保留同屏防重复、Accept/YES 不确定结果保护及点击前复核。\n浮标不再将普通多字段列表卡片整块视为障碍；松手优先附近落位，无附近安全位置时保持可见可拖并记录冲突。\n\n升级前先 Stop，直接覆盖安装，不要卸载或清除数据。更新后先 Sync，再测试连续候选及浮标拖动。相同资料且未观察到 Home 的候选仍保守处理。自动测试不是 HONOR 真机或服务器订单结果验证，仍需 Owner 测试。",
-  "publishedAt": "2026-10-20T17:03:21Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v32-84e7150d44a6/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "ClickAirV2 v32（0.2.29）Owner QA\n\n修复 Diagnostics ZIP/TXT 因旧分享缓存不断累积而最终无法导出的问题；每次导出前只清理 ClickAirV2 自己生成的旧临时导出文件，不删除真正保留的诊断数据库/证据，也不碰无关缓存文件。\n导出文件名加入毫秒精度，避免同一秒连续导出发生名称冲突。\n导出失败与 Android 分享失败现在分开显示，并保留脱敏的失败阶段、原因及异常类型，英文/中文/马来文均已更新。\n新增旧缓存恢复与失败原因回归测试。\n\n验证：393/393 单元测试通过；Lint 0 errors；Release build PASS；永久 RSA4096 签名证书 pin 与 v31 相同。\n升级前先 Stop，直接覆盖安装，不要卸载或清除数据。本版本尚未声称 HONOR 真机分享流程已验证，升级后请重新测试 ZIP 与 TXT 分享。",
+  "publishedAt": "2026-10-21T05:49:05Z"
 }
