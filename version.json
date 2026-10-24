@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 35,
-  "versionName": "0.2.32-owner-ota-dev",
-  "sha256": "6e7dadba71940a9bc029c8a95dd977f933c3516b109fd2b2bb4f59478722a537",
-  "sizeBytes": 2407022,
+  "versionCode": 36,
+  "versionName": "0.2.33-owner-ota-dev",
+  "sha256": "6302b65343b5868fb946f440c64598326e29a8c747e66b3b1b53a8c8cdab70a9",
+  "sizeBytes": 2854324,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v35-cf7274267728/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "Fix Upcoming cross-scroll card reconciliation and verified new-offer handling after Reject. Run Sync again after updating. Device multi-card and server outcomes remain to be verified.",
-  "publishedAt": "2026-10-21T21:42:49Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v36-25a79a034c30/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "v36: Adds Membership and RM0.00 QA purchase screens (Supabase Staging only). Original Instant/Advance, Upcoming Sync and Floating automation remain unchanged. Real membership tests require confirmed email and approved Staging device/tester; Google and real payment are not yet configured.",
+  "publishedAt": "2026-10-24T08:42:42Z"
 }
