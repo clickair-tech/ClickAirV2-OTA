@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 37,
-  "versionName": "0.2.34",
-  "sha256": "dfa186a82b14e87a4d6b60dbdc1999079ae26d581d0da4903bf9af873dcc3a9e",
-  "sizeBytes": 2882996,
+  "versionCode": 38,
+  "versionName": "0.2.35",
+  "sha256": "987716cfdb402e8c4b3637b9b33d2cdc5054e54d5a1d5f77d53d1cfb0c0d9bd0",
+  "sizeBytes": 2907572,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v37-0233944e5222/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "v37: Membership UI redesign — grouped status, account, device, plan, orders and support cards; three-language layout and clean version label 0.2.34. Existing booking automation unchanged. Membership/QA purchases use Staging and require verified test account/device; Google and live payments are not enabled.",
-  "publishedAt": "2026-10-25T11:20:53Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v38-4cad8f5f5878/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "v38: Membership Google readiness checks, password/recovery guidance, signed-out controls, three-language errors and accurate upload status. Existing booking automation unchanged. Google is not enabled until external OAuth setup; email delivery and HONOR device/Trial/QA purchase/upload flows remain unverified. No formal paid automation permissions enabled.",
+  "publishedAt": "2026-10-25T17:01:52.860206Z"
 }
