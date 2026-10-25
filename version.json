@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 36,
-  "versionName": "0.2.33-owner-ota-dev",
-  "sha256": "6302b65343b5868fb946f440c64598326e29a8c747e66b3b1b53a8c8cdab70a9",
-  "sizeBytes": 2854324,
+  "versionCode": 37,
+  "versionName": "0.2.34",
+  "sha256": "dfa186a82b14e87a4d6b60dbdc1999079ae26d581d0da4903bf9af873dcc3a9e",
+  "sizeBytes": 2882996,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v36-25a79a034c30/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "v36: Adds Membership and RM0.00 QA purchase screens (Supabase Staging only). Original Instant/Advance, Upcoming Sync and Floating automation remain unchanged. Real membership tests require confirmed email and approved Staging device/tester; Google and real payment are not yet configured.",
-  "publishedAt": "2026-10-24T08:42:42Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v37-0233944e5222/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "v37: Membership UI redesign — grouped status, account, device, plan, orders and support cards; three-language layout and clean version label 0.2.34. Existing booking automation unchanged. Membership/QA purchases use Staging and require verified test account/device; Google and live payments are not enabled.",
+  "publishedAt": "2026-10-25T11:20:53Z"
 }
