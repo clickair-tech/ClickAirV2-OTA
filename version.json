@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 38,
-  "versionName": "0.2.35",
-  "sha256": "987716cfdb402e8c4b3637b9b33d2cdc5054e54d5a1d5f77d53d1cfb0c0d9bd0",
+  "versionCode": 39,
+  "versionName": "0.2.36",
+  "sha256": "d1d9783ed55188b9656514a269759b29089f20130663b926f3cdabfd81e539e8",
   "sizeBytes": 2907572,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v38-4cad8f5f5878/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "v38: Membership Google readiness checks, password/recovery guidance, signed-out controls, three-language errors and accurate upload status. Existing booking automation unchanged. Google is not enabled until external OAuth setup; email delivery and HONOR device/Trial/QA purchase/upload flows remain unverified. No formal paid automation permissions enabled.",
-  "publishedAt": "2026-10-25T17:01:52.860206Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v39-71269cd2f82e/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "v39: Instant estimated pickup distance now recognizes meters (m) and kilometers (km) with exact conversion, fixing the 100m pickup being UNKNOWN. Advance booking trip-distance readings in m/km are normalized for diagnostics only; Advance filters are unchanged. Existing price, Gap, permissions and UNKNOWN safety remain unchanged. GitHub build/tests/signing passed; live phone and real booking outcomes have not yet been validated.",
+  "publishedAt": "2026-10-26T05:45:11.975Z"
 }
