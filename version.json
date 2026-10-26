@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 39,
-  "versionName": "0.2.36",
-  "sha256": "d1d9783ed55188b9656514a269759b29089f20130663b926f3cdabfd81e539e8",
-  "sizeBytes": 2907572,
+  "versionCode": 40,
+  "versionName": "0.2.37",
+  "sha256": "2d8df76a49e002f17134ea342174d78c3b293b1e5b3a2f6d9e077f2b11279507",
+  "sizeBytes": 2928052,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v39-71269cd2f82e/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "v39: Instant estimated pickup distance now recognizes meters (m) and kilometers (km) with exact conversion, fixing the 100m pickup being UNKNOWN. Advance booking trip-distance readings in m/km are normalized for diagnostics only; Advance filters are unchanged. Existing price, Gap, permissions and UNKNOWN safety remain unchanged. GitHub build/tests/signing passed; live phone and real booking outcomes have not yet been validated.",
-  "publishedAt": "2026-10-26T05:45:11.975Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v40-a849a38ecf04/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "v40 Owner QA: complete ClickAirV2 Android application with existing Advance/Instant booking, Sync, My Schedule, Floating, diagnostics, OTA and Membership screens. Membership redesign: separate Sign In/Register, email+password signup, OTP confirmation/resend, password recovery and clearer Google login errors; no changes to booking safety or 14-day device-activated Trial policy. Uses ClickAir-Staging. Google sign-in is currently disabled in staging provider settings; email SMTP/actual OTP delivery and physical HONOR attestation/Trial have not been validated. QA build for owner testing, not production membership acceptance.",
+  "publishedAt": "2026-10-26T08:04:29.184Z"
 }
