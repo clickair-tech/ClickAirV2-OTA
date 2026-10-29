@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 40,
-  "versionName": "0.2.37",
-  "sha256": "2d8df76a49e002f17134ea342174d78c3b293b1e5b3a2f6d9e077f2b11279507",
-  "sizeBytes": 2928052,
+  "versionCode": 42,
+  "versionName": "0.2.39",
+  "sha256": "ed5ce6bc1828de08e3bf5be1a5d068b7c371dafec5b38c72598c9bafdff8718d",
+  "sizeBytes": 2932148,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v40-a849a38ecf04/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "v40 Owner QA: complete ClickAirV2 Android application with existing Advance/Instant booking, Sync, My Schedule, Floating, diagnostics, OTA and Membership screens. Membership redesign: separate Sign In/Register, email+password signup, OTP confirmation/resend, password recovery and clearer Google login errors; no changes to booking safety or 14-day device-activated Trial policy. Uses ClickAir-Staging. Google sign-in is currently disabled in staging provider settings; email SMTP/actual OTP delivery and physical HONOR attestation/Trial have not been validated. QA build for owner testing, not production membership acceptance.",
-  "publishedAt": "2026-10-26T08:04:29.184Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v42-adfd2512d1f2/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "v42 Owner QA: same permanently signed ClickAirV2 Android app with unchanged Advance/Instant/Sync/Gap/Floating rules. Membership backend on ClickAir-Staging ca-member-api v7 now uses Edge-compatible PKIX/P-384 Android attestation verification; 56/56 actual Edge synthetic security tests and 114/114 backend tests pass. HONOR enrollment, device binding, 14-day Trial, QA RM0 purchase, email delivery and Google login require real setup/phone verification. For Owner testing only; no Production changes or real billing.",
+  "publishedAt": "2026-10-29T01:12:17.000Z"
 }
