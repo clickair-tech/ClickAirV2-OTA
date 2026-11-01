@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 44,
-  "versionName": "0.2.41",
-  "sha256": "d0d62008c35be5e2e116332626563a18463d653ba1934bc9d6b2adb6c49b9bb2",
-  "sizeBytes": 2936244,
+  "versionCode": 45,
+  "versionName": "0.2.42",
+  "sha256": "e1d579b2a6e2b24b4f2f866a8a0b6fd0b65e15095a667bf1313682ddac008fab",
+  "sizeBytes": 2940340,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v44-ac856af94891/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "v44 Owner QA airport diagnostics evidence patch. Adds exact allowlisted KUL Drop Off Priority queue/rejoin countdown labels, sampled AIRPORT.OBSERVED events and capture completeness/issue/node metadata in the existing privacy-safe Diagnostics ZIP. Does not change Gate, Booking Gap, Instant/Advance filters, membership, login, signing, or live-order actions. Airport topmost/underlay identity remains UNKNOWN and 60ms captures may still be incomplete; no extra recapture or cross-window access. For safe Owner evidence collection only.",
-  "publishedAt": "2026-10-31T00:54:16Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v45-62ea44425ce5/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "v45 Owner QA: verified KUL Airport Queue/queue rejoin Home-equivalent Gate recovery after a fresh, complete post-action screen. Upcoming sync now scans to the real end and merges proven time/card continuity across scroll; accepts unlimited reservation count. No changes to Booking Gap selection, Instant/Advance filters, Membership or Login. Automated CI and permanent signer verification passed; real HONOR airport/order automation remains unverified. Do not force real orders for testing. Export Diagnostics ZIP for review.",
+  "publishedAt": "2026-11-01T01:52:06Z"
 }
