@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 46,
-  "versionName": "0.2.43",
-  "sha256": "a675829efdc716a15a7490e924ed47a208b579f4164e4c204c6f9fb8ef048c8a",
-  "sizeBytes": 2944436,
+  "versionCode": 48,
+  "versionName": "0.2.45",
+  "sha256": "34b50f88975d7e038023a52fe79b1cd9b467b3ec3ab9b44d2c4dfcddd1699003",
+  "sizeBytes": 2981300,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v46-2177fb59fedb/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "v46 Owner QA: source and automated tests fix a false end-of-list REPEATED_VIEWPORT during Upcoming scanning. A proven complete scan with readable Pickup Date+Time, including the final clipped card, clears GAP UNKNOWN immediately. A genuinely PARTIAL inventory keeps its unknown-times protection for 5 minutes, then releases only that stale UNKNOWN flag; previously recorded System Sync and Manual Add reservations and the selected GAP still apply. Failed or repeated partial scans do not extend the original deadline. No 15-second automatic rescan. State persists across restart with schema4 migration. After 5 minutes an unread reservation may still exist, so monitor My Schedule. Full CI and permanent APK signature/hash checks passed; real HONOR live-order behavior remains unverified.",
-  "publishedAt": "2026-11-03T01:40:12Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v48-a45d44d27c9e/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "V48 Owner QA (0.2.45): bounded retry only after explicit Android click=false; richer click and diagnostic evidence; English/Chinese/Malay cancellation reminder requests manual Sync, without automatic cancellation Sync or schedule deletion; confirmed Advance post-accept Sync remains. Existing Upcoming/GAP rules remain. Cloudflare archive upload is disabled pending trusted device/account verification and revocable consent; no Cloudflare Production changes. Signed using the existing v46-compatible certificate; source, CI and public download SHA256 checked. HONOR device installation, real AARide behavior and cloud end-to-end have not yet been validated. Owner QA only: check permissions and settings before use.",
+  "publishedAt": "2026-11-06T16:19:44Z"
 }
