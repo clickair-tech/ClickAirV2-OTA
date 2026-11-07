@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 48,
-  "versionName": "0.2.45",
-  "sha256": "34b50f88975d7e038023a52fe79b1cd9b467b3ec3ab9b44d2c4dfcddd1699003",
+  "versionCode": 49,
+  "versionName": "0.2.46",
+  "sha256": "d4306a684491cb2f7baf81c65fcadd0c02144681d28c6608cd4c8345d339e2a4",
   "sizeBytes": 2981300,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v48-a45d44d27c9e/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "V48 Owner QA (0.2.45): bounded retry only after explicit Android click=false; richer click and diagnostic evidence; English/Chinese/Malay cancellation reminder requests manual Sync, without automatic cancellation Sync or schedule deletion; confirmed Advance post-accept Sync remains. Existing Upcoming/GAP rules remain. Cloudflare archive upload is disabled pending trusted device/account verification and revocable consent; no Cloudflare Production changes. Signed using the existing v46-compatible certificate; source, CI and public download SHA256 checked. HONOR device installation, real AARide behavior and cloud end-to-end have not yet been validated. Owner QA only: check permissions and settings before use.",
-  "publishedAt": "2026-11-06T16:19:44Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v49-51b00d8e5549/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "V49 Owner QA (0.2.46): Accept/Reject on fresh valid Advance or Instant offers, including identical recurring offers, without WAITING_HOME/last-offer deduplication. No attempt-count cap, minimum 500ms action pacing. Advance FILTER GAP unchanged; existing owned YES→Confirmed→Back→Sync and cancellation manual Sync reminders preserved. Same signer as V48; independently verified APK checksum. Membership and remote archive upload remain fail-closed pending trusted verification. HONOR installation and real AARide server results NOT YET VERIFIED; Owner QA test build only.",
+  "publishedAt": "2026-11-07T16:57:45Z"
 }
