@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 49,
-  "versionName": "0.2.46",
-  "sha256": "d4306a684491cb2f7baf81c65fcadd0c02144681d28c6608cd4c8345d339e2a4",
-  "sizeBytes": 2981300,
+  "versionCode": 50,
+  "versionName": "0.2.47",
+  "sha256": "6582fefb33f28fc3b5182ac621315b9db725c3b89f5cb8a1ed249bf0f4115a17",
+  "sizeBytes": 4392528,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v49-51b00d8e5549/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "V49 Owner QA (0.2.46): Accept/Reject on fresh valid Advance or Instant offers, including identical recurring offers, without WAITING_HOME/last-offer deduplication. No attempt-count cap, minimum 500ms action pacing. Advance FILTER GAP unchanged; existing owned YES→Confirmed→Back→Sync and cancellation manual Sync reminders preserved. Same signer as V48; independently verified APK checksum. Membership and remote archive upload remain fail-closed pending trusted verification. HONOR installation and real AARide server results NOT YET VERIFIED; Owner QA test build only.",
-  "publishedAt": "2026-11-07T16:57:45Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v50-aaf23e5e2230/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "V50 Owner QA (0.2.47): adds native Firebase Email/Password login (ClickTechNativeActivity, firebase-auth 24.0.1). Same signer as V49; independently verified APK checksum. HONOR installation and real AARide server results NOT YET VERIFIED; Owner QA test build only.",
+  "publishedAt": "2026-11-10T15:36:37Z"
 }
