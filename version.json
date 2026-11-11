@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 52,
-  "versionName": "0.2.49",
-  "sha256": "debb04b38f67410779bfcec77bfaa3f88141471e5c7235c2258fe986cdc669b1",
-  "sizeBytes": 4400793,
+  "versionCode": 53,
+  "versionName": "0.2.50",
+  "sha256": "1b10693869d91c32bcdd64208303641aab442c2c77733c4ab6df359b9f86a37e",
+  "sizeBytes": 4413081,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v52-8b477323969f/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "V52 Owner QA (0.2.49): Redesigned native ClickTech Member screen for mobile safe areas, compact sign-in/register tabs, registration-only confirmation, masked passwords, shortened signed-out status with expandable details, and localized EN/ZH/MS controls. Original permanent APK signing certificate and Firebase Android configuration verified. Existing Advance/Instant/GAP and Start/Stop automation code unchanged. Trial/device entitlement, paid checkout and remote upload remain disabled. HONOR visual and registration/login behavior require real-device QA before production use.",
-  "publishedAt": "2026-11-11T15:38:28Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v53-77a56069459b/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "V53 Owner QA (0.2.50): Native Firebase registration now leads to a waiting-for-email-verification screen. After using the email link, re-enter password to check fresh Firebase verification; confirmed email leads to Sign In, without automatically granting any trial or automation rights. Updated EN/ZH/MS guidance and error handling. Original signer and automation rules unchanged. 597 local JVM tests and GitHub CI passed; HONOR email/link/login not yet device-verified. Trial/device/payment and remote upload remain disabled. Test with automation stopped.",
+  "publishedAt": "2026-11-11T23:09:41.808Z"
 }
