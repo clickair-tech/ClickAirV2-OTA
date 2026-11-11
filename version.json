@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 51,
-  "versionName": "0.2.48",
-  "sha256": "989b6d87cb911fc19c8cd20030228a3722546965d2573402bafd5d289f72ca27",
-  "sizeBytes": 4392601,
+  "versionCode": 52,
+  "versionName": "0.2.49",
+  "sha256": "debb04b38f67410779bfcec77bfaa3f88141471e5c7235c2258fe986cdc669b1",
+  "sizeBytes": 4400793,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v51-b781d7a7e979/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "V51 Owner QA (0.2.48): fixes V50 native Firebase sign-in unavailable by embedding independently SHA256-verified Firebase Android registration. Existing permanent signer and order automation behavior unchanged. HONOR registration/login/email recovery not yet device-verified. Trial/device entitlement, paid checkout and remote log upload remain disabled. Test with automation stopped before any live use.",
-  "publishedAt": "2026-11-10T16:29:41Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v52-8b477323969f/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "V52 Owner QA (0.2.49): Redesigned native ClickTech Member screen for mobile safe areas, compact sign-in/register tabs, registration-only confirmation, masked passwords, shortened signed-out status with expandable details, and localized EN/ZH/MS controls. Original permanent APK signing certificate and Firebase Android configuration verified. Existing Advance/Instant/GAP and Start/Stop automation code unchanged. Trial/device entitlement, paid checkout and remote upload remain disabled. HONOR visual and registration/login behavior require real-device QA before production use.",
+  "publishedAt": "2026-11-11T15:38:28Z"
 }
