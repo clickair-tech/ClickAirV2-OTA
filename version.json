@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 54,
-  "versionName": "0.2.51",
-  "sha256": "c97634fadc67cf175fcb5b18c9b1e86578401cb2f42f2721d32e4ad482b4e349",
-  "sizeBytes": 4417177,
+  "versionCode": 55,
+  "versionName": "0.2.52",
+  "sha256": "b22145acec93fa4b68b67f807739bbc28d21fc9934bf9a016318841239621cd9",
+  "sizeBytes": 4429465,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v54-7c26d0fead87/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "V54 Owner QA (0.2.51): Instant FILTER pickup distance readings greater than 30km are held as suspicious initialization values; no Accept or Reject until a fresh 100ms recheck reads 30km or below. Saved distance limits (0-15km), 500ms click pacing, Reject All Instant, Advance, Gap, and Membership remain unchanged. GitHub PR #92 CI and permanent-key signed build/public asset byte-for-byte checks passed. HONOR live AARide order/server results are not yet device-verified; test with care. Trial, device enrollment, payments, and remote diagnostics upload are unchanged.",
-  "publishedAt": "2026-11-12T03:32:08.721Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v55-588081851d5a/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "V55 Owner QA (0.2.52): Firebase ClickTech Android member login with AndroidKeyStore AES-GCM encrypted revocable session restore after app restart, plus a local-only temporary Android Keystore device attestation capability check in EN/ZH/MS. V54 booking automation remains unchanged. No certificate or account data is uploaded by the local hardware probe. REAL device binding, immutable 14-day Trial activation, server-issued AUTOMATION_EXECUTE authorization, paid checkout and remote diagnostic upload remain DISABLED/NOT VERIFIED. CI and existing fixed-key APK + public asset verification passed; real HONOR account/device/server/AARide tests require owner device acceptance. Test Member with booking automation Stopped.",
+  "publishedAt": "2026-11-12T14:46:02.490Z"
 }
