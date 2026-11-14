@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 58,
-  "versionName": "0.2.55",
-  "sha256": "97cef80c4d5f8f4068dcdaa31ca8209e8e53d429a2f5e64c8a5f9e8546e027bd",
-  "sizeBytes": 4466329,
+  "versionCode": 59,
+  "versionName": "0.2.56",
+  "sha256": "cc2a22cc512267e25d5b8a394b5b02455954e5885cd940e1b4b8d9de59147847",
+  "sizeBytes": 4474521,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v58-1fc1cf627a16/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "V58 Owner QA (0.2.55): membership expiry reminders (T-3/T-0) and hardware-backed device binding (one active phone per account, signed account checks, 15-min offline grace). Requires staging backend ccc6141+/90612fa (deployed). Real HONOR install, login, device enrollment and reminders still need Owner QA.",
-  "publishedAt": "2026-11-14T07:52:08.000Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v59-aa13982a8d60/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "V59 Owner QA (0.2.56): device binding fix - server decides challenge expiry (clock offset), accepts 2-5 cert chain, shows D01-D13 error codes on failure, pauses with manual retry backoff instead of looping. Real HONOR binding still needs Owner QA.",
+  "publishedAt": "2026-11-14T10:54:54.000Z"
 }
