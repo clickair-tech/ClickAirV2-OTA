@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 56,
-  "versionName": "0.2.53",
-  "sha256": "d5ef0bb45d876c485bd5cab08e2a6fccf78366e757de10d9ab1db25c0ba61a7c",
-  "sizeBytes": 4433561,
+  "versionCode": 58,
+  "versionName": "0.2.55",
+  "sha256": "97cef80c4d5f8f4068dcdaa31ca8209e8e53d429a2f5e64c8a5f9e8546e027bd",
+  "sizeBytes": 4466329,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v56-2e1dbdc508de/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "V56 Owner QA (0.2.53): ClickTech Member login/account screen now allows screenshots; password fields stay masked and never saved by the form. Failed sign-ins show privacy-safe L00-L06 stage clues (rate-limit/preflight, Firebase verification, ClickTech session/account, encrypted local save), never raw credentials or tokens. This is a diagnostic improvement, NOT proof a prior login failure is fixed. V55 booking automation and membership Trial/device/permissions remain unchanged. PR #94 source CI and original fixed-key signing/public asset verification passed; real HONOR login and server outcomes still need Owner QA.",
-  "publishedAt": "2026-11-12T16:01:37.461Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v58-1fc1cf627a16/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "V58 Owner QA (0.2.55): membership expiry reminders (T-3/T-0) and hardware-backed device binding (one active phone per account, signed account checks, 15-min offline grace). Requires staging backend ccc6141+/90612fa (deployed). Real HONOR install, login, device enrollment and reminders still need Owner QA.",
+  "publishedAt": "2026-11-14T07:52:08.000Z"
 }
