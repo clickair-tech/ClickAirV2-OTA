@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 59,
-  "versionName": "0.2.56",
-  "sha256": "cc2a22cc512267e25d5b8a394b5b02455954e5885cd940e1b4b8d9de59147847",
-  "sizeBytes": 4474521,
+  "versionCode": 60,
+  "versionName": "0.2.57",
+  "sha256": "2650772fa9f525aeafeaf70988f45e65741ffecd55d23298d9717ca8b764ca4b",
+  "sizeBytes": 4482713,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v59-aa13982a8d60/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "V59 Owner QA (0.2.56): device binding fix - server decides challenge expiry (clock offset), accepts 2-5 cert chain, shows D01-D13 error codes on failure, pauses with manual retry backoff instead of looping. Real HONOR binding still needs Owner QA.",
-  "publishedAt": "2026-11-14T10:54:54.000Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v60-33ecc465c3c0/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "V60 Owner QA (0.2.57): sign-in fix - L02 split into sub-codes (PW/RATE/NET/UNVERIFIED/PENDING/INTERNAL), failed re-login keeps the existing session and device binding, Sign in hidden while signed in. Real HONOR verification still needed.",
+  "publishedAt": "2026-11-14T15:54:08.000Z"
 }
