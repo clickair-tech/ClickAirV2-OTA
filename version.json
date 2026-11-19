@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 61,
-  "versionName": "0.2.58",
-  "sha256": "9c9bc739e1b2549c4b5c1766dc99835e3f838a9bcb3965ca14ff2fb97904188e",
-  "sizeBytes": 4544153,
+  "versionCode": 62,
+  "versionName": "0.2.59",
+  "sha256": "0d87f4112c238abf1f2179536093f03af1710baf78e449149fae2db06eb50408",
+  "sizeBytes": 4556441,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v61-7559b8a9816a/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "V61 Owner QA (0.2.58): home start-failure/waiting Online hints, 4c device change and auto-logout, sign-in page first with redesigned Settings, Task 7B diagnostics auto-upload on unmetered Wi-Fi. Real device verification still needed.",
-  "publishedAt": "2026-11-15T21:36:10.000Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v62-7739805fe020/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "V62 Owner QA (0.2.59): device change fallback for HONOR, new phone sign-in signs out the old phone (SIGNED_IN_ELSEWHERE), error codes on failure, waiting-Online hint, diagnostics dedupe. Real device verification still needed.",
+  "publishedAt": "2026-11-19T01:22:41.000Z"
 }
