@@ -1,14 +1,14 @@
 {
   "packageName": "com.dnsv2",
-  "versionCode": 62,
-  "versionName": "0.2.59",
-  "sha256": "0d87f4112c238abf1f2179536093f03af1710baf78e449149fae2db06eb50408",
-  "sizeBytes": 4556441,
+  "versionCode": 63,
+  "versionName": "0.2.60",
+  "sha256": "1bcc119594880820050f17001d1141b26f7d7224040e3cb6faff852f5a051990",
+  "sizeBytes": 4568953,
   "signingCertificateSha256": "9873a6743f2b0c3eab21faa105dd975e8fc30539fc803e426bf2d601b967cf26",
   "schemaVersion": 1,
   "channel": "owner-qa",
   "available": true,
-  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v62-7739805fe020/ClickAirV2-fixed-key.apk",
-  "releaseNotes": "V62 Owner QA (0.2.59): device change fallback for HONOR, new phone sign-in signs out the old phone (SIGNED_IN_ELSEWHERE), error codes on failure, waiting-Online hint, diagnostics dedupe. Real device verification still needed.",
-  "publishedAt": "2026-11-19T01:22:41.000Z"
+  "apkUrl": "https://github.com/clickair-tech/ClickAirV2-OTA/releases/download/owner-qa-v63-a22055cef691/ClickAirV2-fixed-key.apk",
+  "releaseNotes": "V63 Owner QA (0.2.60): redesigned sign-in, move-to-this-phone sheet, Home setup card, grouped Settings; testing tools hidden; 'Set AARide Online to start'. Real device verification still needed.",
+  "publishedAt": "2026-11-21T01:48:00.000Z"
 }
